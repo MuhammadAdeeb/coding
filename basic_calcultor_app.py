@@ -3,7 +3,7 @@ from tkinter import *
 root = Tk()
 root.title("Simple Calculator")  # Window's Title
 
-global num_tr  # Tr/Bool for when a num is clicked
+global num_tr  # Trigger/Bool for when a num is clicked
 num_tr = False  # B/c when the program starts no num is clicked
 
 global f_num  # Variable for storing the first number clicked for math eqn
